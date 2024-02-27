@@ -1,0 +1,7 @@
+on: push
+jobs:
+   fistt-job:windows-latest
+   runs-on:
+   steps:
+      - run: node --version
+      - run: npm --verion  
